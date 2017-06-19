@@ -9,7 +9,7 @@ import cv2
 import numpy as np
 
 # Read image
-filename = 'D:\Antoine\Documents\Stage\Partoo\star_wars.png'
+filename = '..\star_wars.png'
 im = cv2.imread(filename)  # [:100,:200]
 
 # Setup SimpleBlobDetector parameters

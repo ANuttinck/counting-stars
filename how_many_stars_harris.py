@@ -8,7 +8,7 @@ Created on Sat Jun 17 10:00:35 2017
 import cv2
 import numpy as np
 
-filename = 'D:\Antoine\Documents\Stage\Partoo\star_wars.png'
+filename = '..\star_wars.png'
 # Load an color image + ,0 directly in grayscale
 img = cv2.imread(filename)  # [:100,:200,:]
 # HARRIS DETECTOR
